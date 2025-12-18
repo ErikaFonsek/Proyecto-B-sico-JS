@@ -1,0 +1,16 @@
+.tabla-contenedor {
+  max-height: 300px;     /* altura máxima del contenedor */
+  overflow-y: auto;      /* activa el scroll vertical cuando se exceda la altura */
+  border: 1px solid #ccc; /* opcional, para ver el contenedor */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
